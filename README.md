@@ -8,27 +8,27 @@ The application is designed for use in a browser. Users can add images or text, 
 
 ## Instructions
 
-* Users can paste an image URL into the input field and click the "Add Image" button to add the image as a draggable element.
+1. Users can paste an image URL into the input field and click the "Add Image" button to add the image as a draggable element.
 
-* Users can enter text into the input field and click the "Add Text" button to add the text as a draggable element.
+2. Users can enter text into the input field and click the "Add Text" button to add the text as a draggable element.
 
-* Drag-and-drop functionality allows users to position images and text freely on the mood board.
+3. Drag-and-drop functionality allows users to position images and text freely on the mood board.
 
-* The mood board saves automatically to local storage, ensuring persistence across sessions.
+4. The mood board saves automatically to local storage, ensuring persistence across sessions.
 
-* Clicking the "Clear All" button removes all elements from the mood board and clears the local storage.
+5. Clicking the "Clear All" button removes all elements from the mood board and clears the local storage.
 
 ## Key Features
 
-* **Add Images:** Users can add images to the board by entering a URL.
+* Users can add images to the board by entering a URL.
 
-* **Add Text:** Users can add custom text to the board.
+* Users can add custom text to the board.
 
-* **Drag-and-Drop:** Both images and text can be dragged and positioned anywhere on the board.
+* Both images and text can be dragged and positioned anywhere on the board.
 
-* **Persistence:** The mood board is saved to local storage and persists across browser sessions.
+* The mood board is saved to local storage and persists across browser sessions.
 
-* **Clear All:** A "Clear All" button clears the mood board and resets local storage.
+* A "Clear All" button clears the mood board and resets local storage.
 
 ## Technology Stack
 
