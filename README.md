@@ -1,69 +1,55 @@
-# Module 04 Mini-Project: Mood Board
+# Mood Board
 
-In this activity, you will work with a group to build a dynamic mood board.
+This project involves building a dynamic mood board where users can add images or text, drag them onto the board, and save their mood board for later use. The application allows users to interact with elements dynamically and ensures that their mood board persists using local storage.
+
+## Usage
+
+The application is designed for use in a browser. Users can add images or text, drag them onto the board, and customize their mood board as desired.
 
 ## Instructions
 
-The completed application should meet the following criteria:
+* Users can paste an image URL into the input field and click the "Add Image" button to add the image as a draggable element.
 
-* As a user, I want to add an image of my choice using a URL.
+* Users can enter text into the input field and click the "Add Text" button to add the text as a draggable element.
 
-  * For example:
+* Drag-and-drop functionality allows users to position images and text freely on the mood board.
 
-  ```md
-  https://static.bc-edx.com/coding/full-stack/04-Web-APIs/assets/100-m4-mini.png
-  ```
+* The mood board saves automatically to local storage, ensuring persistence across sessions.
 
-* As a user, I want to drop that image into the mood board.
+* Clicking the "Clear All" button removes all elements from the mood board and clears the local storage.
 
-* As a user, I want to add some text to the mood board.
+## Key Features
 
-* As a user, I want drag that text into the mood board.
+* **Add Images:** Users can add images to the board by entering a URL.
 
-* As a user, I want to see the image or text being dragged as I move it into the mood board.
+* **Add Text:** Users can add custom text to the board.
 
-* As a user, I want my mood board to be saved in local storage.
+* **Drag-and-Drop:** Both images and text can be dragged and positioned anywhere on the board.
 
-## Specifications
+* **Persistence:** The mood board is saved to local storage and persists across browser sessions.
 
-* Navigate to `Develop/assets/js/script.js` and complete the `TODO` sections.
+* **Clear All:** A "Clear All" button clears the mood board and resets local storage.
 
-* When a user pastes an image URL into the input field and clicks the "Add Image" button, the image should be draggable.
+## Technology Stack
 
-* When a user clicks a draggable element on to the mood board, the element should be appended to the mood board in the position of the mouse.
+This project uses the following technologies:
 
-* When a user enters text into the input field and clicks the "Add Text" button, the text should be draggable.
+* **JavaScript:** Handles dynamic element creation, drag-and-drop functionality, and local storage integration.
 
-* When a user clicks the draggable element on to the mood board, the element should be appended to the mood board in the position of the mouse.
+* **HTML and CSS:** Provide the structure and styling of the mood board interface.
 
-* When a user refreshes or returns to the browser page, the mood board should persist.
+* **LocalStorage:** Ensures the user's mood board data is saved and retrieved across sessions.
 
-* When a user clicks the "Clear All" button, the mood board should be cleared and the local storage should be cleared.
+## Additional Resources
 
-## 💡 Notes
+* Learn more about how to use `addEventListener`: [MDN Web Docs on addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
-Refer to the documentation:
+* Learn more about working with arrays in JavaScript: [MDN Web Docs on Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-* [MDN Web Docs on addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+* Learn more about loops and iteration in JavaScript: [MDN Web Docs on Loops and Iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
-* [MDN Web Docs on Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* Learn more about handling mouse events: [MDN Web Docs on MouseEvent](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent)
 
-* [MDN Web Docs on loops and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+* Learn more about `getBoundingClientRect`: [MDN Web Docs on getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
 
-* [MDN Web Docs on MouseEvent](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent)
-
-* [MDN Web Docs on getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
-
-* [MDN Web Docs on localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your group to further your knowledge:
-
-* How can you make the elements on the mood board draggable after placement?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+* Learn more about local storage: [MDN Web Docs on localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
