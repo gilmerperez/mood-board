@@ -2,9 +2,24 @@
 
 This project involves building a dynamic mood board where users can add images or text, drag them onto the board, and save their mood board for later use. The application allows users to interact with elements dynamically and ensures that their mood board persists using local storage.
 
+## Table of Contents
+
+- [Usage](#usage)
+- [Mock Up](#mock-up)
+- [Instructions](#instructions)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Additional Resources](#additional-resources)
+
 ## Usage
 
 The application is designed for use in a browser. Users can add images or text, drag them onto the board, and customize their mood board as desired.
+
+## Mock-Up
+
+The following image shows the web application's appearance and functionality:
+
+![Screenshot](./assets/images/scWebsite.jpg)
 
 ## Instructions
 
